@@ -8,4 +8,8 @@ public class HelloworldController {
 	public String getName() {
 		return "Neelima";
 	}
+	@GetMapping("/Demo")
+	public String getDemo() {
+		return "Demo";
+	}
 }
